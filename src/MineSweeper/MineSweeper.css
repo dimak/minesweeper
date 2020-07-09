@@ -1,0 +1,83 @@
+.minesweeper {
+  padding: 20px;
+}
+
+.minesweeper-field .cell {
+  display: inline-block;
+  width: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #000;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.minesweeper-field .cell span {
+  visibility: hidden;
+}
+
+.minesweeper-field .cell-show span {
+  visibility: visible;
+}
+
+.minesweeper-field .cell-0 span {
+  visibility: hidden;
+}
+
+.minesweeper-field .cell-show.cell-0 {
+  background: #ededed;
+}
+
+.minesweeper-field .cell-show.cell-1 {
+  background: #39FE63;
+}
+
+.minesweeper-field .cell-show.cell-2 {
+  background: #46E459;
+}
+
+.minesweeper-field .cell-show.cell-3 {
+  background: #53CB50;
+}
+
+.minesweeper-field .cell-show.cell-4 {
+  background: #61B147;
+}
+
+.minesweeper-field .cell-show.cell-5 {
+  background: #6E983E;
+}
+
+.minesweeper-field .cell-show.cell-6 {
+  background: #7C7F35;
+}
+
+.minesweeper-field .cell-show.cell-7 {
+  background: #89652B;
+}
+
+.minesweeper-field .cell-show.cell-8 {
+  background: #964C22;
+}
+
+.minesweeper-field .cell-show.cell-9 {
+  background: #A43219;
+}
+
+.minesweeper-field .cell-show.cell-x {
+  background: #d9534f;
+  color: #000;
+  font-weight: bold;
+}
+
+.minesweeper-field .cell-flag, .minesweeper-field .cell-show.cell-flag {
+  background: #31b0d5;
+}
+
+.minesweeper-settings {
+  margin-bottom: 20px;
+}
+
+.minesweeper-settings * {
+  margin-right: 10px;
+}
